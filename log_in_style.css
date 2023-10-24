@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/Background.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: hsl(193, 98%, 84%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+    color: #333;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 5px;
+}
+
+.input-group input {
+    object-position: center;
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-group input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+.container #sign{
+    padding-left:35px;
+    padding-right:25px;
+}
+.container #forpass{
+    padding-left:25px;
+    padding-right:35px;
+}
+.container a:hover{
+    color: hsl(230, 100%, 58%);
+}
